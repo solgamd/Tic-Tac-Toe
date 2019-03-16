@@ -3,11 +3,14 @@
     text-align:center;
 }
 
-.top, .center, .bottom {
+.row > div {
     float: left;
     height: 100px;
     width: 100px;
+    text-align: center;
+    border: 10px solid black;
 }
-.row > .top {
-    
-}
+
+.clearfix {
+    clear: both;
+  }
