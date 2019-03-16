@@ -7,33 +7,31 @@
     float: left;
     height: 100px;
     width: 100px;
-    clear: both;
+    box-sizing: border-box;
 }
 
 .row {
     margin: 0 auto;    
-    width: 302px;
+    width: 300px;
+    height: 100px;
 }
 
 .top {
-    border-top: 1px fuchsia;
-    border-bottom: 1px fuchsia;
-    border-right: 1px  fuchsia;
-    border-left: 1px fuchsia;
+    border-top: 1px solid fuchsia; 
+    border-bottom: 1px solid fuchsia;
 }
+
 .bottom {
-    border-top: 1px orange;
-    border-bottom: 1px orange;
-    border-right: 1px orange;
-    border-left: 1px orange;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
 }
 
 .left {
-    border-right: 1px green;
-    border-left: 1px green;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
 }
 
 .right {
-    border-right: 1px brown;
-    border-left: 1px brown;
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
 }
