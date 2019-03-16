@@ -1,16 +1,39 @@
-.top {
-    padding: 3em;
-    text-align:center;
+#board {
+    padding-top: 3em;
+    text-align: center;
 }
 
 .row > div {
     float: left;
     height: 100px;
     width: 100px;
-    text-align: center;
-    border: 10px solid black;
+    clear: both;
 }
 
-.clearfix {
-    clear: both;
-  }
+.row {
+    margin: 0 auto;    
+    width: 302px;
+}
+
+.top {
+    border-top: 1px fuchsia;
+    border-bottom: 1px fuchsia;
+    border-right: 1px  fuchsia;
+    border-left: 1px fuchsia;
+}
+.bottom {
+    border-top: 1px orange;
+    border-bottom: 1px orange;
+    border-right: 1px orange;
+    border-left: 1px orange;
+}
+
+.left {
+    border-right: 1px green;
+    border-left: 1px green;
+}
+
+.right {
+    border-right: 1px brown;
+    border-left: 1px brown;
+}
