@@ -17,21 +17,25 @@
 }
 
 .top {
-    border-top: 1px solid fuchsia; 
-    border-bottom: 1px solid fuchsia;
+    border-top: 1px solid darkslategray; 
+    border-bottom: 1px solid darkslategray;
 }
 
 .bottom {
-    border-top: 1px solid orange;
-    border-bottom: 1px solid orange;
+    border-top: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
 }
 
 .left {
-    border-right: 1px solid green;
-    border-left: 1px solid green;
+    border-right: 1px solid darkslategray;
+    border-left: 1px solid darkslategray;
 }
 
 .right {
-    border-right: 1px solid blue;
-    border-left: 1px solid blue;
+    border-right: 1px solid darkslategray;
+    border-left: 1px solid darkslategray;
+}
+
+.pointer:hover {
+    cursor: pointer;
 }
