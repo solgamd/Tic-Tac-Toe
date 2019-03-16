@@ -1,0 +1,13 @@
+.top {
+    padding: 3em;
+    text-align:center;
+}
+
+.top, .center, .bottom {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.row > .top {
+    
+}
