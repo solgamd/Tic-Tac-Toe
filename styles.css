@@ -1,3 +1,7 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #board {
     padding-top: 3em;
     text-align: center;
@@ -38,4 +42,14 @@
 
 .pointer:hover {
     cursor: pointer;
+}
+
+.cell {
+    width: 100px;
+    height:100px;
+    background: turquoise;
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
