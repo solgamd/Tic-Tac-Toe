@@ -1,1 +1,1 @@
-# This is the Tic Tac Toe game lab.
+# Tic Tac Toe game lab using JavaScript.
