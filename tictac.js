@@ -16,15 +16,23 @@ function startGame() {
 }
 
 function cellClicked(e) {
-    if (!gameOver) {
+    //can shorthand to if(gameOver)
+    if (gameOver === true) {
+        resetBoard();
+        return;
+    }
+
     if (e.target.innerHTML === "X" || e.target.innerHTML === "O") {
         return;
     }
+
     e.target.innerHTML = markers[whoseTurn];
     checkWin();
-    if (!gameOver) {
-        toggle();
-}
+    toggle();
+
+    function resetBoard() {
+        location.reload();
+    }
 }
 
 function toggle() {
@@ -71,10 +79,4 @@ function checkWin(e) {
             document.getElementById("message").innerHTML = "Game Over!";
         }
     }       
-}
 
-function reset() {
-    if (gameOver = true) {
-        document.onclick("board") = " ";
-    }
-}
