@@ -16,7 +16,6 @@ function startGame() {
 }
 
 function cellClicked(e) {
-    //can shorthand to if(gameOver)
     if (gameOver === true) {
         resetBoard();
         return;
