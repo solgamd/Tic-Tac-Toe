@@ -54,7 +54,9 @@ function checkWin(e) {
         document.getElementById('c3').innerHTML === "X" && document.getElementById('c5').innerHTML === "X" && document.getElementById('c7').innerHTML === "X") 
         {
             gameOver = true;
-            alert("X is the winner!");
+            setTimeout(function() {
+                alert("X Wins!");
+            }, 100);
             document.getElementById("message").innerHTML = "Game Over!";
     } else if 
         (document.getElementById('c1').innerHTML === "O" && document.getElementById('c2').innerHTML === "O" && document.getElementById('c3').innerHTML === "O"||
@@ -67,14 +69,18 @@ function checkWin(e) {
         document.getElementById('c3').innerHTML === "O" && document.getElementById('c5').innerHTML === "O" && document.getElementById('c7').innerHTML === "O") 
         {
             gameOver = true;
-            alert("O is the winner!");
+            setTimeout(function() {
+                alert("O Wins!");
+            }, 100);
             document.getElementById("message").innerHTML = "Game Over!";
     } else if 
         (document.getElementById('c1').innerHTML && document.getElementById('c2').innerHTML && document.getElementById('c3').innerHTML && 
         document.getElementById('c4').innerHTML && document.getElementById('c5').innerHTML && document.getElementById('c6').innerHTML &&
         document.getElementById('c7').innerHTML && document.getElementById('c8').innerHTML && document.getElementById('c9').innerHTML !== "&nbsp;") {
             gameOver = true;
-            alert("It's a draw!");
+            setTimeout(function() {
+                alert("It's a draw!");
+            }, 100);
             document.getElementById("message").innerHTML = "Game Over!";
         }
     }       
