@@ -1,5 +1,7 @@
 # This is the Tic Tac Toe game lab.
 
+Link to live game: https://young-hollows-23643.herokuapp.com/
+
 **Objective**
 In this lab, you will finish your Tic Tac Toe game! Let's add interactivity and make it work :)
 
